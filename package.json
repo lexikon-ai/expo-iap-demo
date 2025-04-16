@@ -4,9 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint"
@@ -16,11 +15,15 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
+    "@hono/standard-validator": "^0.1.2",
+    "@peculiar/x509": "^1.12.3",
     "@react-navigation/bottom-tabs": "^7.2.0",
     "@react-navigation/native": "^7.0.14",
+    "app-store-server-api": "^0.17.1",
     "expo": "~52.0.46",
     "expo-blur": "~14.0.3",
     "expo-constants": "~17.0.8",
+    "expo-dev-client": "^5.0.20",
     "expo-font": "~13.0.4",
     "expo-haptics": "~14.0.1",
     "expo-iap": "^2.2.11",
@@ -31,6 +34,8 @@
     "expo-symbols": "~0.2.2",
     "expo-system-ui": "~4.0.9",
     "expo-web-browser": "~14.0.2",
+    "hono": "^4.7.7",
+    "jose": "^6.0.10",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native": "0.76.9",
@@ -39,7 +44,9 @@
     "react-native-safe-area-context": "4.12.0",
     "react-native-screens": "~4.4.0",
     "react-native-web": "~0.19.13",
-    "react-native-webview": "13.12.5"
+    "react-native-webview": "13.12.5",
+    "stripe": "^18.0.0",
+    "valibot": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -48,6 +55,7 @@
     "@types/react-test-renderer": "^18.3.0",
     "jest": "^29.2.1",
     "jest-expo": "~52.0.6",
+    "prettier": "^3.5.3",
     "react-test-renderer": "18.3.1",
     "typescript": "^5.3.3"
   }
