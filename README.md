@@ -1,8 +1,6 @@
 # Expo IAP (In-App Purchases) Demo for Google Play, Apple App Store (iOS), and Web
 
-<p align="center">
-    A reference implementation for in-app purchases using [`expo-iap`](https://github.com/hyochan/expo-iap).
-</p>
+A reference implementation for in-app purchases using [`expo-iap`](https://github.com/hyochan/expo-iap).
 
 ## Features
 
