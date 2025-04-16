@@ -19,10 +19,6 @@ A reference implementation for in-app purchases using [`expo-iap`](https://githu
 
 See [our corresponding blog post]() for more a more in-depth tutorial.
 
-## Getting Started
-
-This is a standard [expo default template](https://github.com/expo/expo/tree/main/templates/expo-template-default), feel free to follow the instructions there to get started.
-
 ## Credits
 
 🤝 All credit really belongs to [Hyochan](https://github.com/hyochan) + the `expo-iap` [contributors](https://github.com/hyochan/expo-iap/graphs/contributors).
