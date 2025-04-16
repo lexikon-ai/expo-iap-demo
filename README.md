@@ -6,14 +6,14 @@ A reference implementation for in-app purchases using [`expo-iap`](https://githu
 
 - 🤓 Complete backend reference implementation
 - 🔗 Webhook subscriptions to get notified about purchases and cancellations
-- 🔄 Cross-platform support (iOS, Android, and Web)
+- 🔄 Cross-platform support (iOS, Android, and Web via Stripe)
 - 🤖 Designed for serverless environments like [EAS Hosting](https://docs.expo.dev/eas/hosting/introduction/) or [Cloudflare Workers](https://developers.cloudflare.com/workers/), but should work pretty much anywhere Node.js can run.
+- 🛒 [Production implementation](https://lexikon.ai) has passed Google Play and Apple App Store certifications.
 
 ## Non-Features
 
-- 🚫 Not designed as a reusable library. Feel free to copy and modify this codebase for your own needs.
+- 🚫 Not designed as a reusable library. It is just a reference implementation - a starting off point so you don't have to start from scratch like we did. Feel free to copy and modify this codebase for your own needs, it is MIT licensed. Your implementation will depend on your auth layer, database, and what you are selling, as well as your hosting provider.
 - 🚫 Focused around selling a single product (a subscription), but easily extendable to support other types of in-app purchases or multiple products.
-- 🚫 There is no database. [Throughout the codebase](https://github.com/lexikon-ai/expo-iap-demo/blob/c314c968365bc1fe847542eba7b3c568bd6bc1c6/app/api/checkout/%5B...everything%5D%2Bapi.ts#L17-L61) you'll see stub functions that you'll need to implement yourself.
 
 ## Usage
 
